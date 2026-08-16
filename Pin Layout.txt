@@ -1,0 +1,22 @@
+
+Usage Display Group (Pins 6 & 7)
+
+Pin 6: CPU Usage LED Strip
+Pin 7: GPU Usage LED Strip
+
+
+
+Temperature Display Group (Pins 9, 10 & 11)
+
+Pin 9: CPU Temp VU Meter
+Pin 10: GPU Temp VU Meter
+Pin 11: Temp RGB LED Strip (CPU and GPU combined in one strip)
+
+
+
+Controls Group (Pins 2, 3, 4 & 12)
+
+Pin 2: Data IR Receiver
+Pin 3: Button 1 (Profile switch)
+Pin 4: Button 2 (Brightness)
+Pin 12: Button 3 (Test mode)

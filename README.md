@@ -10,15 +10,15 @@ It also has the option for a remote control. When using your own remote control 
 4. Select the colour profile by pressing the Button which is connected to Pin 3 or use one of the numbers on the remote control
 5. The following colour profiles are available: 
  > - 1 White - The number of lit LEDs indicates the load
- > - 2 white - All LEDs are lit, with their brightness indicating the load
+ > - 2 White - All LEDs are lit, with their brightness indicating the load
  > - 3 Blue - The number of lit LEDs indicates the load
- > - 4 blue - All LEDs are lit, with their brightness indicating the load
+ > - 4 Blue - All LEDs are lit, with their brightness indicating the load
  > - 5 Cyan - The number of lit LEDs indicates the load
  > - 6 Cyan - All LEDs are lit, with their brightness indicating the load
  > - 7 Thermometer style with green up to 50%, then yellow at 75% and red at 90% and higher
  > - 8 Similar to 7 but all used LEDs lit up in the colour depending on the GPU-usage
  > - 9 All LEDs lit up always, but change the colour depending on the load
- > - 0 all LEDs are off
+ > - 0 All LEDs are off
 6. Select your brightness by pressing the Button connected to Pin 4 or use the up/down Button on the remote
 7. Brightness adjustment is logarithmic; it is therefore more of a gamma correction, which is more easily perceived by the human eye.
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/ArduinoCpuGpuUsageTempMonitorProgram.jpg)

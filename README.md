@@ -13,6 +13,7 @@ Both starts to blink in red when reaching a "critical" temperature. For CPU it i
 Instead, simply use the power from the 5V line of your PC power supply, as shown in the chematic.
 
 You need all 3 system files, as well as LibreHardwareMonitorLib.dll and ArduinoCpuGpuUsageTempMonitor.exe, in the same folder for it to work.
+
 Im using an Intel CPU 12th Gen and an AMD Radeon 9060XT, but it should also work with AMD CPUs and NVidia graphic cards (not sure if it work with NVidias 5000 Cards cause it is more difficult to read the HotSpot there)
 
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/CPUGPUUsageTempMonitorChematic.jpg)

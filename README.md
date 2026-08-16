@@ -18,8 +18,8 @@ Individual adjustments needed in the arduino sketch file:
 - Number of LEDs for the usage LEDs - Line 22
 - Hex-Codes for the remote when using a different remote control: Line 32 and following
 - VU-Meter adjustment for the PWM-Signal in line 380 and 381. Current setup is the following:
- - CPU 0°C to 100°C means 0% PWM to 95% PWM
- - GPU 0°C to 100°C means 0% PWM to 90% PWM
+ - CPU 0°C to 100°C means 0% PWM to 95% PWM (242)
+ - GPU 0°C to 100°C means 0% PWM to 90% PWM (229)
 - Warning blinking for the temperature LEDs: Line 340 (currently 96°C for CPU and 81°C for GPU)
 
 **Warning**: If you're using a large number of LEDs, you should not use the Arduino's 5V Pin. Depending on the brightness and color, this can damage your Arduino board or USB-Port because the current draw may be too high.

@@ -4,6 +4,9 @@ It has several color profiles stored, and you can adjust the brightness. The mos
 It also has the option for a remote control. When using your own remote control you maybe have to change the Hex-codes in the Arduino sketch file. I used the Remote that comes with an Elegoo Uno R3.
 The LED strip for the temperature display uses LEDs 1–4 for the GPU and 6–9 for the CPU, while LED No. 5 is always off. Of course, this can be customized in the sketch file. These LEDs are also NOT affected by any colour profile for the usage display, only the brightness will adjusted too.
 
+Warning: If you're using a large number of LEDs, you should not use the Arduino's 5V Pin. Depending on the brightness and color, this can damage your Arduino board because the current draw may be too high.
+Instead, simply use the power from the 5V line of your PC power supply, as shown in the chematic.
+
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/CPUGPUUsageTempMonitorChematic.jpg)
 1. Open ArduinoCpuGpuUsageTempMonitor.ino and adjust the number of LEDs for the Usage-LEDs in line 22 “// --- HARDWARE CONFIGURATION ---” depending on how many you want to control. The scaling is done automatically. Save this to your file.
 2. Upload ArduinoCpuGpuUsageTempMonitor.ino to your board

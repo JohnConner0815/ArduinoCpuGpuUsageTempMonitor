@@ -16,7 +16,7 @@ Instead, simply use the power from the 5V line of your PC power supply, as shown
 1. Open ArduinoCpuGpuUsageTempMonitor.ino and adjust the number of LEDs for the Usage-LEDs in line 22 “// --- HARDWARE CONFIGURATION ---” depending on how many you want to control. The scaling is done automatically. Save this to your file.
 2. Upload ArduinoCpuGpuUsageTempMonitor.ino to your board
 3. Run ArduinoCpuGpuUsageTempMonitor.exe - it should already show you the Usage and Temps - select the correct Com-port and press connect
-4. Select the colour profile by pressing the Button which is connected to Pin 3 or use one of the numbers on the remote control
+4. Select the colour profile for the Usage LEDs by pressing the Button which is connected to Pin 3 or use one of the numbers on the remote control
 5. The following colour profiles are available: 
  > - 1 White - The number of lit LEDs indicates the load
  > - 2 White - All LEDs are lit, with their brightness indicating the load

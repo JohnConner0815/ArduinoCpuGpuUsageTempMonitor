@@ -19,7 +19,7 @@ Im using an Intel CPU 12th Gen and an AMD Radeon 9060XT, but it should also work
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/CPUGPUUsageTempMonitorChematic.jpg)
 1. Open ArduinoCpuGpuUsageTempMonitor.ino and adjust the number of LEDs for the Usage-LEDs in line 22 “// --- HARDWARE CONFIGURATION ---” depending on how many you want to control. The scaling is done automatically. Save this to your file.
 2. Upload ArduinoCpuGpuUsageTempMonitor.ino to your board
-3. Run ArduinoCpuGpuUsageTempMonitor.exe - it should already show you the Usage and Temps - select the correct Com-port, the refresh rate (0,1sec up to 1sec) and press connect
+3. Run ArduinoCpuGpuUsageTempMonitor.exe as administrator (otherwise, the temperatures probably won't be read)- it should already show you the Usage and Temps - select the correct Com-port, the refresh rate (0,1sec up to 1sec) and press connect
 
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/ArduinoCpuGpuUsageTempMonitorProgram.jpg)
 

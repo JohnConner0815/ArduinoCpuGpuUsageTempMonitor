@@ -24,15 +24,15 @@ It also has the option for a remote control. When using your own remote control 
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/ArduinoCpuGpuUsageTempMonitorProgram.jpg)
 
 Button Function:
- > Button 1 (Pin3) - Switching to next colour profile
- > Button 2 (Pin4) - Increase brightness
- > Button 3 (Pin12) - Pressing for 1 second starts a Test sequence with all Colour profiles
+ > - Button 1 (Pin3) - Switching to next colour profile
+ > - Button 2 (Pin4) - Increase brightness
+ > - Button 3 (Pin12) - Pressing for 1 second starts a Test sequence with all Colour profiles
 
 
 Remote control buttons:
- > Numbers 0-9 - Select the specific colour profile
- > Up/down - Change the brightness
- > Next/Previous - Switching between the colour profiles
- > Power Button - Turn the LEDs off/on
- > EQ-Button - Pressing at least 1 sec will start the Test sequence
+ > - Numbers 0-9 - Select the specific colour profile
+ > - Up/down - Change the brightness
+ > - Next/Previous - Switching between the colour profiles
+ > - Power Button - Turn the LEDs off/on
+ > - EQ-Button - Pressing at least 1 sec will start the Test sequence
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/IMG_20260815_0550492.jpg)

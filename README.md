@@ -8,6 +8,7 @@ The Colours for the temperature LEDs are slightly different for the CPU and GPU.
 CPU reach red at 90°C while the GPU already shows red when reaching 80°C.
 You can change that at the very bottom of the sketch file.
 Both starts to blink in red when reaching a "critical" temperature. For CPU it is 96°C or higher, for GPU it is 81°C or higher. You can adjust this at line 340 of the Arduino sketch file.
+For my setup, I had to adjust the PWM-signal for the VU meters. Both start at 0% PWM = 0°C. But they end differently. CPU is 95% PWM = 100°C and GPU is 90% PWM = 100°C. You can adjust this in line 380 and 381 of the arduino sketch file.
 
 **Warning**: If you're using a large number of LEDs, you should not use the Arduino's 5V Pin. Depending on the brightness and color, this can damage your Arduino board or USB-Port because the current draw may be too high.
 Instead, simply use the power from the 5V line of your PC power supply, as shown in the chematic.

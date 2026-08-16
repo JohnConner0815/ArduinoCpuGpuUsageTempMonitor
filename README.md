@@ -12,6 +12,8 @@ Both starts to blink in red when reaching a "critical" temperature. For CPU it i
 **Warning**: If you're using a large number of LEDs, you should not use the Arduino's 5V Pin. Depending on the brightness and color, this can damage your Arduino board or USB-Port because the current draw may be too high.
 Instead, simply use the power from the 5V line of your PC power supply, as shown in the chematic.
 
+You need all 3 system files, as well as LibreHardwareMonitorLib.dll and ArduinoCpuGpuUsageTempMonitor.exe, in the same folder for it to work. 
+
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/CPUGPUUsageTempMonitorChematic.jpg)
 1. Open ArduinoCpuGpuUsageTempMonitor.ino and adjust the number of LEDs for the Usage-LEDs in line 22 “// --- HARDWARE CONFIGURATION ---” depending on how many you want to control. The scaling is done automatically. Save this to your file.
 2. Upload ArduinoCpuGpuUsageTempMonitor.ino to your board

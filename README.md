@@ -9,7 +9,7 @@ CPU reach red at 90°C while the GPU already shows red when reaching 80°C.
 You can change that at the very bottom of the sketch file.
 Both starts to blink in red when reaching a "critical" temperature. For CPU it is 96°C or higher, for GPU it is 81°C or higher. You can adjust this at line 340 of the Arduino sketch file.
 
-Warning: If you're using a large number of LEDs, you should not use the Arduino's 5V Pin. Depending on the brightness and color, this can damage your Arduino board or USB-Port because the current draw may be too high.
+**Warning**: If you're using a large number of LEDs, you should not use the Arduino's 5V Pin. Depending on the brightness and color, this can damage your Arduino board or USB-Port because the current draw may be too high.
 Instead, simply use the power from the 5V line of your PC power supply, as shown in the chematic.
 
 ![](https://github.com/JohnConner0815/ArduinoCpuGpuUsageTempMonitor/blob/main/CPUGPUUsageTempMonitorChematic.jpg)
